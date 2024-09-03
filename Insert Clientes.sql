@@ -1,4 +1,4 @@
-INSERT INTO clientes (nome, cpf, telefone, endereco) VALUES
+INSERT INTO Clientes (nome, cpf, telefone, endereco) VALUES
 ('Ana Paula', '567.222.333-49', '(11) 91234-5678', 'Rua D, 123'),
 ('Bruno Stiva', '222.353.444-55', '(21) 92345-6789', 'Rua E, 456'),
 ('Clara Martins', '888.444.555-66', '(31) 93456-7898', 'Rua F, 789'),
