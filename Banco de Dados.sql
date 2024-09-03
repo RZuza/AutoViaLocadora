@@ -20,7 +20,7 @@ id_modelo INT,
 status ENUM ('Disponível','Locado','Em Manutenção') DEFAULT 'Disponivel',
 FOREIGN KEY (id_modelo) REFERENCES Modelos(id)
 );
-CREATE TABLE Ciente (
+CREATE TABLE Clientes (
 id INT AUTO_INCREMENT PRIMARY KEY,
 nome VARCHAR(100) NOT NULL,
 cpf VARCHAR(14) NOT NULL UNIQUE,
